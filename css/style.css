@@ -80,7 +80,7 @@ main{
 /* FOOTER */
 
 .footer{
-    background-color: darkmagenta;
+    /* background-color: darkmagenta; */
     height: 10vh;
     display: flex;
     justify-content: space-around;
@@ -96,6 +96,8 @@ main{
 /* MAIN TRENDING */
 
 .main-trending-container{
+    background-color: #fff;
+    border: 2px solid black;
     display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
