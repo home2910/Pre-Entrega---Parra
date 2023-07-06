@@ -125,8 +125,8 @@ main{
     "br sim deporte";
     grid-template-columns:1fr 1fr 1fr ;
     grid-template-rows:1fr 1fr 1fr ;
+    }
 
-}
 
 .explicacion-generos{
     color: white;
@@ -173,4 +173,20 @@ justify-self: center;
 grid-area: deporte;
 }
 
+
 /* SOBRE NOSOTROS */
+
+.main-sobreNosotros-container{
+    height: 80vh;
+    color: white;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+
+   
+}
+
+.sobreNosotros-item1{
+justify-items: center;
+
+}
