@@ -41,7 +41,7 @@ header nav{
         color: #fff;}
 
 
-/* PRINCIPAL */
+/* INDEX */
 
 
 main{
@@ -113,3 +113,76 @@ main{
     justify-content: space-between;
 }
 
+
+/* MAIN GENEROS */
+.main-container-generos{
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    grid-template-areas: 
+    "explain explain explain"
+    "rpg hs disparos"
+    "br sim deporte";
+    grid-template-columns:1fr 1fr 1fr ;
+    grid-template-rows:1fr 1fr 1fr ;
+
+}
+
+.explicacion-generos{
+    color: white;
+    justify-self: center;
+    grid-area: explain;
+}
+
+.generos-h4-1{
+    color: white;
+    justify-self: center;
+grid-area: rpg;
+}
+
+.generos-h4-2{
+    color: white;
+    justify-self: center;
+    grid-area:hs;
+
+}
+
+.generos-h4-3{
+    color: white;
+    justify-self: center;
+    grid-area: disparos;
+    
+}
+
+.generos-h4-4{
+    color: white;
+    justify-self: center;
+    grid-area: br;
+    
+}
+
+.generos-h4-5{
+color: white;
+justify-self: center;
+grid-area: sim;
+}
+
+.generos-h4-6{
+color: white;
+justify-self: center;
+grid-area: deporte;
+}
+
+@media (min-widht:320px){
+    .explicacion-generos{
+        height: 100vh;
+        display: grid;
+    grid-template-areas: 
+    "explain explain"
+    "rpg hs"
+    "br disparos"
+    "sim deporte";
+    grid-template-columns:1fr 1fr 1fr ;
+    grid-template-rows:1fr 1fr 1fr ;
+    }
+}
