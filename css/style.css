@@ -173,16 +173,3 @@ justify-self: center;
 grid-area: deporte;
 }
 
-@media (min-widht:320px){
-    .explicacion-generos{
-        height: 100vh;
-        display: grid;
-    grid-template-areas: 
-    "explain explain"
-    "rpg hs"
-    "br disparos"
-    "sim deporte";
-    grid-template-columns:1fr 1fr 1fr ;
-    grid-template-rows:1fr 1fr 1fr ;
-    }
-}
