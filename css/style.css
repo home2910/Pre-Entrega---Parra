@@ -104,6 +104,8 @@ main{
 
 /* MAIN TRENDING */
 
+
+
 .main-trending-container{
     /* background-color: #fff; */
     border: 2px solid black;
@@ -115,6 +117,7 @@ main{
 
 
 /* MAIN GENEROS */
+
 .main-container-generos{
     height: 100vh;
     display: grid;
@@ -181,12 +184,20 @@ grid-area: deporte;
     color: white;
     display: flex;
     flex-direction:column;
-    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+
 
    
 }
 
 .sobreNosotros-item1{
-justify-items: center;
+text-decoration:underline;
+font-family: cursive;
+}
 
+.sobreNosotros-item2{
+text-align: center;
+font-size: 18px;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
